@@ -45,4 +45,8 @@ III.4 Comparaison des résultats entre sujets contrôle et patients. (3)
 
 Conclusion et perspectives
 
+Problématique:
+
+
+
 
