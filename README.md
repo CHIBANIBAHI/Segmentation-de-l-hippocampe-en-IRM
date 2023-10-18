@@ -9,6 +9,12 @@ Les recherches scientifiques ont démontré qu'il existait des marqueurs en IRM 
 
 Dans ce projet nous envisagerons en premier lieu de faire des recherches sur le contexte : le cerveau, l'IRM cérébral..., ensuite nous entamons des recherches bibliographiques sur les marqueurs des IRM cérébraux en ESPT, ainsi que pour les maladies où les fonctions cognitives sont touchées  (maladie d'Alzheimer, skizophrène..).Enfin, nous attaquons la partie de la réalisation d'une segmentation automatique par réseaux de neurones de l'hippocampe sur une autre base de données d'IRM existante et libre de droit (patients schizophrènes ou Alzheimer), du calcul du volume hippocampique et de la comparaison des résultats entre sujets contrôle et patients.
 
+BASE DE DONNEES IMAGES IRM CEREBRALES:
+https://www.oasis-brains.org/#about
+
+Cette base de données est une collecte d'images IRM cérébrales de 416 sujets agés entre 18 et 96 ans. Chaque sujet dispose de 3 ou 4 T1-weighted MRI scans.
+Tous les sujtes sont des droitiers incluant des hommes et des femmes. Parmis ces sujets, on trouve 100 dont l'age est supérieur à 60 ans ont été diagnostiqués Alzheimer AD dans différents stades ( léger à modéré AD).
+
 Plan temporaire :
 
 Introduction
