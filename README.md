@@ -53,6 +53,7 @@ III- Techniques de ségmentation:
 1) Segmentation manuelle:
    
 ( M. Chupin et al  IRBM 32 (2011) 19–26  : Segmentation ciblée d’images IRM et maladie d’Alzheimer)
+
 La segmentation manuelle sur les acquisitions pondérées en T1 est considérée comme la méthode la plus fiable pour obtenir un volume hippocampique, néanmoins la cette dernière technique continue de poser un certain nombre de problèmes pour son utilisation en routine : 
 elle est très longue,
 demande une formation approfondie.
