@@ -34,6 +34,7 @@ Le choix de la base de données: OASIS Brains - Open Access Series of Imaging St
 ![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/0368e041-94fc-4c93-b049-a3da67a1a550)
 
 Sur la base de 457 sujets, nous avons identifié: 
+
       a- Les Nondemented (ND) avec un CDR (Clinical Dementia Rating)=0 ;
       b- Les demented (D) avec un CDR (Clinical Dementia Rating)=0.5, 1 et 2 (CDR; 0= nondemented; 0.5 – very mild dementia; 1 = mild dementia; 2 = moderate dementia) ;
       c- Les sujets sans CDR mentionné;
