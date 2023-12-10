@@ -31,7 +31,6 @@ D’après les articles étudiés [REV ASSOC MED BRAS 2020; 66(4):512-515, Struc
 II- Base de données:
 
 Le choix de la base de données: OASIS Brains - Open Access Series of Imaging Studies (oasis-brains.org);
-![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/0368e041-94fc-4c93-b049-a3da67a1a550)
 
 Sur la base de 457 sujets, nous avons identifié: 
 
