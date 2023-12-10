@@ -21,5 +21,22 @@ I- Etat de l’art sur:
 
 Hippocampe et PTSD:
 
-D’après les 9 articles sélectionnés et étudiés (Sonalee A. Joshi et al 2019, hahin Zandieh et al 2016, Ruth Klaming et al 2019,
+D’après les articles sélectionnés et étudiés (Sonalee A. Joshi et al 2019, hahin Zandieh et al 2016, Ruth Klaming et al 2019,
 J. Douglas Bremner et al 1997, J. Douglas Bremner et al 1995b, J. Douglas Bremner 2006, B. R.Filipovic , et al 2011, Philip R 2018, Ana Starcevic et al 2014), le volume hippocampique se réduit lors d’une atteinte du syndrome du stress post-traumatique (SSPT) quelque soit la cause: (torture, ELS early life Stress, Childhood physical and sexual abuse, Patients with Combat-Related ( Vietnam combat veterans ), Patients Suffering from Headaches and without Therapy, combat-exposed U.S. Veterans). Sur la base de différentes cohortes allant de 23 à 60 ans, deux articles ont précisé le pourcentage de diminution du volume hippocampique droit et gauche (12% Left) et (8% Right).
+
+Hippocampe et Alzheimer: 
+
+D’après les articles étudiés [REV ASSOC MED BRAS 2020; 66(4):512-515, Structural Volume of Hippocampus and Alzheimer’s Disease, 10.1016/j.neuroscience.2015.08.033. inserm-01668526, http://www.cenir.org, REV ASSOC MED BRAS 2020; 66(4):512-515], observe une atrophie de l'hippocampe: l’imagerie de l’atrophie par IRM dans la maladie d’Alzheimer a montré selon une étude des articles étudiés une réduction du volume hippocampique, en remarquant une réduction de 10% suite aux troubles cognitifs légers, une baisse de 25% chez les sujets atteints de l’AD avec une forme légère et 40% chez les sujets ayant développés l’Alzheimer dans sa forme modérée.
+
+II- Base de données:
+
+Le choix de la base de données: OASIS Brains - Open Access Series of Imaging Studies (oasis-brains.org);
+Sur la base de 457 sujets, nous avons identifié: 
+      a- Les Nondemented (ND) avec un CDR (Clinical Dementia Rating)=0 ;
+      b- Les demented (D) avec un CDR (Clinical Dementia Rating)=0.5, 1 et 2 (CDR; 0= nondemented; 0.5 – very mild dementia; 1 = mild dementia; 2 = moderate dementia) ;
+      c- Les sujets sans CDR mentionné;
+      e- Les sujets avec un (CDR >0) dont l'âge > 60 ans: atteints d’Alzheimer;
+      f-  Les sujets avec un (CDR =0) dont l'âge > 60 ans: sujets contrôles;
+      g- Le nombre d’hommes et de femmes ayant plus de 60 ans, avec un CDR=0 et CDR>0;
+      
+![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/06177942-838e-4575-801f-d8211492e700)
