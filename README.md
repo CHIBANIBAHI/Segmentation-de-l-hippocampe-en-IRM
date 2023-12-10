@@ -44,6 +44,7 @@ Sur la base de 457 sujets, nous avons identifié:
       On a obtenu le nombre de sujets jugés utiles pour notre segmentation: 
 
 Problématique: Ce nombre nous apparaît insuffisant !
+
 Solution proposée: étaler la tranche d'âge de sélection!  Ajouter autre base de données..
 
 III- Techniques de ségmentation:
