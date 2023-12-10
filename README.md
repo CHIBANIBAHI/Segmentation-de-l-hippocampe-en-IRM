@@ -40,11 +40,8 @@ Sur la base de 457 sujets, nous avons identifié:
       e- Les sujets avec un (CDR >0) dont l'âge > 60 ans: atteints d’Alzheimer;
       f-  Les sujets avec un (CDR =0) dont l'âge > 60 ans: sujets contrôles;
       g- Le nombre d’hommes et de femmes ayant plus de 60 ans, avec un CDR=0 et CDR>0;
-![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/b8b76978-ca89-4292-8e57-e4cd1103f9bf)
       i- Pour chaque catégorie, nous avons pris des tranches d'âges de 10 ans, pour pouvoir attribuer le même nombre d’hommes et de femmes des deux côtés pour chaque tranche.
-      ![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/5b204f40-957c-4003-9f54-1020e6186bb9)
       On a obtenu le nombre de sujets jugés utiles pour notre segmentation: 
-      ![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/96144de6-35d5-408c-90c5-de617415a535)
 
 Problématique: Ce nombre nous apparaît insuffisant !
 Solution proposée: étaler la tranche d'âge de sélection!  Ajouter autre base de données..
