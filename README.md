@@ -31,6 +31,7 @@ D’après les articles étudiés [REV ASSOC MED BRAS 2020; 66(4):512-515, Struc
 II- Base de données:
 
 Le choix de la base de données: OASIS Brains - Open Access Series of Imaging Studies (oasis-brains.org);
+![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/0368e041-94fc-4c93-b049-a3da67a1a550)
 Sur la base de 457 sujets, nous avons identifié: 
       a- Les Nondemented (ND) avec un CDR (Clinical Dementia Rating)=0 ;
       b- Les demented (D) avec un CDR (Clinical Dementia Rating)=0.5, 1 et 2 (CDR; 0= nondemented; 0.5 – very mild dementia; 1 = mild dementia; 2 = moderate dementia) ;
@@ -38,5 +39,24 @@ Sur la base de 457 sujets, nous avons identifié:
       e- Les sujets avec un (CDR >0) dont l'âge > 60 ans: atteints d’Alzheimer;
       f-  Les sujets avec un (CDR =0) dont l'âge > 60 ans: sujets contrôles;
       g- Le nombre d’hommes et de femmes ayant plus de 60 ans, avec un CDR=0 et CDR>0;
-      
-![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/06177942-838e-4575-801f-d8211492e700)
+![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/b8b76978-ca89-4292-8e57-e4cd1103f9bf)
+      i- Pour chaque catégorie, nous avons pris des tranches d'âges de 10 ans, pour pouvoir attribuer le même nombre d’hommes et de femmes des deux côtés pour chaque tranche.
+      ![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/5b204f40-957c-4003-9f54-1020e6186bb9)
+      On a obtenu le nombre de sujets jugés utiles pour notre segmentation: 
+      ![image](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/assets/114928237/96144de6-35d5-408c-90c5-de617415a535)
+
+Problématique: Ce nombre nous apparaît insuffisant !
+Solution proposée: étaler la tranche d'âge de sélection!  Ajouter autre base de données..
+
+III- Techniques de ségmentation:
+1) Segmentation manuelle:
+   
+( M. Chupin et al  IRBM 32 (2011) 19–26  : Segmentation ciblée d’images IRM et maladie d’Alzheimer)
+La segmentation manuelle sur les acquisitions pondérées en T1 est considérée comme la méthode la plus fiable pour obtenir un volume hippocampique, néanmoins la cette dernière technique continue de poser un certain nombre de problèmes pour son utilisation en routine : 
+elle est très longue,
+demande une formation approfondie.
+caractérisée par une variabilité intra- et inter-observateur qui demeure importante (erreur en volume entre 5 et 10 %, par exemple).
+Tandis  que la segmentation entièrement automatique est l'objectif extrême. Elle a de nombreux avantages, en plus d'être indépendante de l'opérateur elle est rapide et reproductible.
+
+2) Segmentation automatique:
+   
