@@ -59,7 +59,7 @@ Tandis  que la segmentation entièrement automatique est l'objectif extrême. El
    
 La segmentation automatique permettrait de répondre à de nombreux problèmes rencontrés auparavant. Elle deviendrait alors un marqueur diagnostique utile pour la MA. Cependant, les limites macroscopiques de l’hippocampe sont incomplètes sur les acquisitions IRM à 1,5T ou 3T. Il devient alors nécessaire d’introduire de l’information a priori afin d’assurer une segmentation fiable et robuste. Cette information a priori peut provenir de plusieurs origines : sujet modèle, base d’apprentissage, atlas probabiliste ou connaissances anatomiques.
 
-Nous allons réaliser la segmentation sur réseaux de neurones. Il existe plusieurs architectures de réseaux de neurones ( AlexNet , Resnet, GoogleNet, …) mais celle dédiée pour le traitement d’images médicales est U-NET qui a été  développée en 2015 par Olaf Ronneberger, depuis il y’a eu une apparition de ses variantes telles que : 2D U-NET, 3D U-NET, Cascad U-NET, Attention U-NET.
+Nous allons réaliser la segmentation sur réseaux de neurones. Il existe plusieurs architectures de réseaux de neurones ( AlexNet , Resnet, GoogleNet, …) mais celle dédiée pour le traitement d’images médicales est U-NET qui a été  développée en 2015 par Olaf Ronneberger, depuis il y’a eu une apparition de ses variantes telles que : 2D U-NET, 3D U-NET, Cascad U-NET.
 
 Pour ce faire, on va suivre les étapes suivantes:
 
