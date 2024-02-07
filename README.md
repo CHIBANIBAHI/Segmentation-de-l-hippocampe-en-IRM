@@ -39,7 +39,11 @@ Sur la base de 457 sujets, nous avons identifié:
       f-  Les sujets avec un (CDR =0) dont l'âge > 60 ans: sujets contrôles;
       g- Le nombre d’hommes et de femmes ayant plus de 60 ans, avec un CDR=0 et CDR>0;
       h- Pour chaque catégorie, nous avons pris des tranches d'âges de 10 ans, pour pouvoir attribuer le même nombre d’hommes et de femmes des deux côtés pour chaque tranche.
-      On a obtenu le nombre de sujets jugés utiles pour notre segmentation: 166 pour chaque coupe.
+
+Selon notre base de données, la coupe coronale est jugée la meilleure faisant apparaitre l'hippocampe, de ce faire on a décidé de segmenter que les coupes coronales:
+
+77 hommes : 39 demented et 38 non-demented.
+156 femmes! 62 demented et 94 non-demented.
 
 III- Techniques de ségmentation:
 1) Segmentation manuelle:
