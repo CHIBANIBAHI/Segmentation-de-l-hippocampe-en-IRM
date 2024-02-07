@@ -41,10 +41,6 @@ Sur la base de 457 sujets, nous avons identifié:
       h- Pour chaque catégorie, nous avons pris des tranches d'âges de 10 ans, pour pouvoir attribuer le même nombre d’hommes et de femmes des deux côtés pour chaque tranche.
       On a obtenu le nombre de sujets jugés utiles pour notre segmentation: 166 pour chaque coupe.
 
-Problématique: Ce nombre nous apparaît insuffisant !
-
-Solution proposée: étaler la tranche d'âge de sélection!  Possibilité d'ajouter autres bases de données..
-
 III- Techniques de ségmentation:
 1) Segmentation manuelle:
    
