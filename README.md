@@ -64,15 +64,16 @@ Nous allons réaliser la segmentation sur réseaux de neurones. Il existe plusie
 
 Pour ce faire, on va suivre les étapes suivantes:
 
-a- Préparation des données: données (training, validation (Question: ces données doivent être prises d’une autre base de données ou bien celles du test?) et test) des images IRM avec leur segmentation manuelle de l’hippocampe ( et ou sans amygdale)  correspondante.
+a- Préparation des données: données (training, validation et test) des images IRM avec leur segmentation manuelle de l’hippocampe correspondante.
 
-b- Choix de l’architecture du RN: U-Net 3D (Keras) GitHub - davidiommi/3D-U-net-Keras: 3D-Unet: patched based Keras implementation for medical images segmentation.
+b- Choix de l’architecture du RN: U-Net.
 
-c- Entraînement du réseau choisi : permettre au réseau d’ajuster ces paramètres (selon les données d’entraînement) afin de pouvoir prédire la segmentation de l’hippocampe ( et ou sans amygdale).
+c- Entraînement du réseau choisi : permettre au réseau d’ajuster ces paramètres (selon les données d’entraînement) afin de pouvoir prédire la segmentation de l’hippocampe.
 
-d- Evaluation du réseau choisi: cette étape s’effectuera à l’aide des données d'évaluation, pour pouvoir évaluer ce réseau en mesurant sa précision.
+d- Evaluation du réseau choisi: cette étape s’effectuera à l’aide des données d'évaluation, pour pouvoir évaluer ce réseau en mesurant sa précision (Dice coefficient, Hausdorff mean...).
 
+Après la prépration des données, on a classifié les images selon 3 coupes (axiale, sagittale et coronale), afin de les segmentés manuellement et de les mettre en entrainement.
 
-On est dans la phase de préparation de la base de données, en triant les images selon 3 coupes (axiale, sagittale et coronale), afin de les segmentés manuellement et de les mettre en entrainement.
+Nous mettons à la disposition du public, nos données déjà triées et classées selon le sexe et la démence (frames et masques (labels) en format png).
 
 
