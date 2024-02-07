@@ -81,28 +81,22 @@ Figure 1 Architecture U-Net
 Il existe quatre types de couches pour un réseau de neurones convolutif : la couche de convolution, la couche de max pooling, la couche de correction ReLU et la couche fully-connected.
 
 •	Couche convolution 
-La convolution, d’un point de vue simpliste, est le fait d’appliquer un filtre mathématique à une image. D’un point de vue plus technique, il s’agit de faire glisser une matrice par-dessus une image, et pour chaque pixel, utiliser la somme de la multiplication de ce pixel par la valeur de la matrice. Cette technique nous permet de trouver des parties de l’image qui pourraient nous être intéressantes. Prenons la Figure ci-dessous à gauche comme exemple d’image et la Figure à droite comme exemple de matrice [33].
- 
-Figure 11 Convolution : plusieurs filtres
+La convolution, d’un point de vue simpliste, est le fait d’appliquer un filtre mathématique à une image. D’un point de vue plus technique, il s’agit de faire glisser une matrice par-dessus une image, et pour chaque pixel, utiliser la somme de la multiplication de ce pixel par la valeur de la matrice. Cette technique nous permet de trouver des parties de l’image qui pourraient nous être intéressantes. Prenons la Figure ci-dessous à gauche comme exemple d’image et la Figure à droite comme exemple de matrice.
 
 •	Couche ReLu – Unité linéaire rectifiée 
-ReLu est une fonction qui doit être appliquée à chaque pixel d’une image après convolution, et remplace chaque valeur négative par un 0. Si cette fonction n’est pas appliquée, la fonction créée sera linéaire et le problème XOR persiste puisque dans la couche de convolution, aucune fonction d’activation n’est appliquée [33].
-
+ReLu est une fonction qui doit être appliquée à chaque pixel d’une image après convolution, et remplace chaque valeur négative par un 0. Si cette fonction n’est pas appliquée, la fonction créée sera linéaire et le problème XOR persiste puisque dans la couche de convolution, aucune fonction d’activation n’est appliquée.
 
 •	Couche de Max pooling
 
-Dans cette étape nous effectuons un sous-échantillonnage pour réduire le nombre de paramètres en ne gardant que l’activation la plus significative [33].
- 
-Figure 13 Max pooling
+Dans cette étape nous effectuons un sous-échantillonnage pour réduire le nombre de paramètres en ne gardant que l’activation la plus significative.
 
 La couche de Max pooling permet de réduire le nombre de paramètres et de calculs dans le réseau. Nous améliorons ainsi l'efficacité du réseau et nous évitons le sur-apprentissage.
 
 •	Couche fully-connected 
 
-La couche fully-connected constitue toujours la dernière couche d'un réseau de neurones. Ce type de couche reçoit un vecteur en entrée et produit un nouveau vecteur en sortie. Pour cela, elle applique une combinaison linéaire puis éventuellement une fonction d'activation aux valeurs reçues en entrée. La dernière couche fully-connected permet de classifier l'image en entrée du réseau : elle renvoie un vecteur de taille N, où N est le nombre de classes dans notre problème de classification d'images. Chaque élément du vecteur indique la probabilité pour l'image en entrée d'appartenir à une classe [33].
+La couche fully-connected constitue toujours la dernière couche d'un réseau de neurones. Ce type de couche reçoit un vecteur en entrée et produit un nouveau vecteur en sortie. Pour cela, elle applique une combinaison linéaire puis éventuellement une fonction d'activation aux valeurs reçues en entrée. La dernière couche fully-connected permet de classifier l'image en entrée du réseau : elle renvoie un vecteur de taille N, où N est le nombre de classes dans notre problème de classification d'images. Chaque élément du vecteur indique la probabilité pour l'image en entrée d'appartenir à une classe.
 
 Notre choix de l’architecture U-Net repose sur sa capacité à combiner une extraction efficace des caractéristiques, une compréhension hiérarchique du contexte spatial et une adaptabilité aux contraintes de données et de ressources informatiques. Sachant que ces caractéristiques font du modèle U-Net un choix judicieux pour répondre aux défis spécifiques de la segmentation de nos images IRM de l’hippocampe, offrant ainsi une base solide pour des résultats précis et reproductibles, et c’est ce qu’on voulait analyser par la suite.
-
 
 Pour ce faire, on va suivre les étapes suivantes:
 
@@ -118,6 +112,13 @@ Après la prépration des données, on a classifié les images selon 3 coupes (a
 
 Nous mettons à la disposition du public, nos données déjà triées et classées selon le sexe et la démence (frames et masques (labels) en format png).
 
+3) La segmentation manuelle: vérité térrain
+   
+Cette étape consiste à segmenter manuellement les différentes images des sujets de la base de données afin de pouvoir entrainer notre réseau par des masques de la vérité terrain.
+Afin de procéder à cette opération essentielle et demandant une très grande concentration et pour pouvoir bien délimiter l’hippocampe dans les différentes coupes, nous avons été guidée par la neurologue Dr Anna SONTHEIMER qui nous a orienté vers la bonne méthode de segmentation, ainsi après des réunions de vérification et d’après les coupes présentes dans notre base de donnée, nous avons décidé de segmenter que la coupe coronale, et ce pour sa meilleure présentation de l’hippocampe et dans le sens où ce dernier apparait clairement sur la coupe mentionnée.
+Pour pouvoir faire cette segmentation manuelle, nous avons fait plusieurs recherches de logiciels (napari, volbrain et autres), mais nous avons opté pour le logiciel MITK développé par l’équipe de l’institut Pascal de Clermont-Ferrand.
 
+Ce logiciel permet la segmentation experte de 3 coupes d’images, tout en donnant par la suite un volume des 3 coupes.
 
+Dans notre projet nous avons segmenté une seule coupe en utilisant ce logiciel.
 
