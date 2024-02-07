@@ -122,3 +122,53 @@ Ce logiciel permet la segmentation experte de 3 coupes d’images, tout en donna
 
 Dans notre projet nous avons segmenté une seule coupe en utilisant ce logiciel.
 
+4) Calcul de la surface hippocampique
+
+Cette étape consiste à calculer la surface hippocampique des images des masques obtenus par segmentation manuelle et de la comparer avec celle de la segmentation automatique dont le but de comparer la surface des sujets sains et déments, et ce afin d’avoir une idée sur le pourcentage de diminution de la surface hippocampique chez les sujets atteints d’Alzheimer pour valider nos recherches bibliographiques.
+Dans notre projet et comme nous avons déjà cité ci-dessus que nous avons juste la segmentation des coupes coronales, nous nous sommes basés sur la surface de l’hippocampe et ce en utilisant le logiciel MITK.
+
+Le logiciel MITK nous permets d’utiliser le volet « Measurement » qui donne la possibilité de mesurer la surface (Area) de la partie délimitée de l’hippocampe, et ce en utilisant un polygone.
+Après avoir mesurer la surface de l’hippocampe segmentée de toutes les coupes coronales de nos images, nous avons pu remplir notre tableau qui va nous servir de base pour le calcul de la moyenne des surfaces des images et de l’écart-type par sexe et par démence.
+
+5) Résultats:
+
+Pendant cette étape, nous avons procéder à la classification des sujets de la base de données comme suit :
+•	Groupe homme demented : 39 sujets
+•	Groupe homme non-demented : 38 sujets
+•	Groupe femme demented : 62 sujets
+•	Groupe femme non-demented : 94 sujets
+Pour chaque catégorie citée ci-dessus, nous avons calculé la moyenne de la surface et l’écart type correspondant de l’hippocampe (droit et gauche). Résultats présentés dans le tableau suivant :
+
+6) Interprétations
+
+D’après ces résultats, il nous est apparu que dans le cas d’une atteinte d’Alzheimer il y a une diminution de la surface de l’hippocampe en se comparant aux sujets sains.
+Comparaison entre hommes atteints d'Alzheimer et hommes non-demented
+
+•	Pour les hommes atteints d'Alzheimer, la moyenne de la surface de l'hippocampe droit (107,021 mm2) et gauche (107,198 mm2) est inférieure par rapport aux hommes non-demented (119,133 mm2 pour le droit et 128,324 mm2 pour le gauche). Cela suggère une réduction significative de la surface de l'hippocampe chez les hommes atteints de la maladie d'Alzheimer.
+
+Comparaison entre femmes atteintes d'Alzheimer et femmes non-demented
+•	Chez les femmes atteintes d'Alzheimer, la moyenne de la surface de l'hippocampe droit (99,141 mm2) et gauche (105,985 mm2) est également inférieure par rapport aux femmes non-demented (117,819 mm2 pour le droit et 125,900 mm2 pour le gauche). Cette différence suggère une réduction de la surface de l'hippocampe chez les femmes atteintes de la maladie d'Alzheimer.
+
+Comparaison entre hommes et femmes non-demented
+•	Il semble y avoir des différences de base entre hommes et femmes non-demented. Les hommes semblent avoir une moyenne plus élevée de la surface de l'hippocampe par rapport aux femmes, tant pour le côté droit que le côté gauche. Ces différences peuvent être liées aux variations normales de la morphologie cérébrale entre les sexes.
+Variabilité au sein des groupes 
+•	L'écart type mesure la dispersion des valeurs autour de la moyenne. Pour tous les groupes, l'écart type est relativement modéré, indiquant une certaine cohérence dans les données. Cependant, la variabilité semble être plus importante chez les femmes atteintes d'Alzheimer, en particulier pour le côté droit (sachant que le nombre des sujets n’est pas similaire entre deux sexes).
+
+Asymétrie entre les hémisphères 
+•	Pour tous les groupes, la moyenne de la surface de l'hippocampe droit est généralement inférieure à celle du côté gauche. Cela peut refléter des asymétries normales dans la structure cérébrale, bien que cela puisse également être influencé par d'autres facteurs.
+En résumé, ces résultats suggèrent des différences significatives dans la surface de l'hippocampe entre les groupes étudiés, avec une réduction observée chez les individus atteints de la maladie d'Alzheimer par rapport à ceux en bonne santé, et des variations entre hommes et femmes. L'écart type fournit également des indications sur la dispersion des données au sein de chaque groupe.
+
+Conclusion et perspectives
+
+En conclusion, la segmentation automatique s’est avérée robuste dans la délimitation des régions hippocampique, les résultats de cette étude soulignent l'importance de la segmentation d'images médicales dans l'analyse du volume de l'hippocampe, une méthode essentielle pour le diagnostic de pathologies ciblées, notamment les altérations du volume hippocampique associées à des troubles cérébraux tels que la maladie d'Alzheimer, ou à l’ESPT.
+Au cours de ce projet, nous avons développé un algorithme de segmentation automatique basé sur l'architecture U-Net. Avant cette étape, une segmentation manuelle a été réalisée pour établir une référence. Après avoir obtenu les contours précis de l'hippocampe, nous avons calculé la surface hippocampique, mettant en lumière une diminution significative chez les individus atteints de la maladie d'Alzheimer, en accord avec les observations de la littérature.
+Ces résultats suggèrent que l'analyse automatisée de la morphologie cérébrale peut non seulement confirmer les tendances décrites dans la littérature, telles que la réduction du volume hippocampique, mais également offrir une approche plus rapide et potentiellement plus précise pour le diagnostic.
+En intégrant une segmentation manuelle préalable, notre étude renforce la robustesse de l'approche automatisée. Ces avancées méthodologiques ouvrent des perspectives prometteuses pour une utilisation clinique plus généralisée de l'imagerie médicale dans le diagnostic précoce et la compréhension des maladies cérébrales, offrant ainsi des opportunités pour des interventions plus ciblées et efficaces.
+De la contrainte du temps, notre projet s'est concentré sur le développement d'un algorithme de segmentation automatique de l'hippocampe, avec pour objectif initial le calcul du volume hippocampique. Bien que la comparaison entre les volumes des sujets atteints de pathologies cognitives et ceux des sujets sains n'ait pas été entièrement réalisée dans le cadre de ce projet, cette étape représente une perspective majeure pour une poursuite de nos travaux.
+Parallèlement, nous envisageons d'explorer des techniques avancées d'apprentissage automatique pour améliorer la précision de la segmentation et optimiser la fiabilité des mesures de volume, en superposons les trois coupes d’images IRM, ainsi de calculer le volume de la segmentation automatique et de le comparer à celui de la segmentation manuelle afin de valider la littérature.
+Finalement, bien que notre projet ait rencontré des contraintes temporelles, il a jeté les bases solides d'une recherche prometteuse dans le domaine de la segmentation automatique de l'hippocampe. Les perspectives à venir visent à élargir nos analyses, améliorer la précision de nos résultats et renforcer l'applicabilité clinique de notre approche.
+
+
+
+
+
