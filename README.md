@@ -43,7 +43,8 @@ Sur la base de 457 sujets, nous avons identifié:
 Selon notre base de données, la coupe coronale est jugée la meilleure faisant apparaitre l'hippocampe, de ce faire on a décidé de segmenter que les coupes coronales:
 
 77 hommes : 39 demented et 38 non-demented.
-156 femmes! 62 demented et 94 non-demented.
+
+156 femmes : 62 demented et 94 non-demented.
 
 III- Techniques de ségmentation:
 1) Segmentation manuelle:
