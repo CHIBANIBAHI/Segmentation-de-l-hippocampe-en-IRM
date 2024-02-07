@@ -135,7 +135,7 @@ Après avoir mesurer la surface de l’hippocampe segmentée de toutes les coupe
 
 5) Résultats:
 
-![tab.png](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/tab.png)
+![tab.PNG](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/tab.PNG)
 
 Pendant cette étape, nous avons procéder à la classification des sujets de la base de données comme suit :
 •	Groupe homme demented : 39 sujets
