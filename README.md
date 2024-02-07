@@ -114,7 +114,7 @@ Nous mettons à la disposition du public, nos données déjà triées et classé
 
 3) La segmentation manuelle: vérité térrain
 
-![img.jpg](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/seg1.png)
+![seg1.png](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/seg1.png)
 
 Cette étape consiste à segmenter manuellement les différentes images des sujets de la base de données afin de pouvoir entrainer notre réseau par des masques de la vérité terrain.
 Afin de procéder à cette opération essentielle et demandant une très grande concentration et pour pouvoir bien délimiter l’hippocampe dans les différentes coupes, nous avons été guidée par la neurologue Dr Anna SONTHEIMER qui nous a orienté vers la bonne méthode de segmentation, ainsi après des réunions de vérification et d’après les coupes présentes dans notre base de donnée, nous avons décidé de segmenter que la coupe coronale, et ce pour sa meilleure présentation de l’hippocampe et dans le sens où ce dernier apparait clairement sur la coupe mentionnée.
@@ -125,7 +125,7 @@ Ce logiciel permet la segmentation experte de 3 coupes d’images, tout en donna
 Dans notre projet nous avons segmenté une seule coupe en utilisant ce logiciel.
 
 4) Calcul de la surface hippocampique
-![img.jpg](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/surface.png)
+![surface.png](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/surface.png)
 
 Cette étape consiste à calculer la surface hippocampique des images des masques obtenus par segmentation manuelle et de la comparer avec celle de la segmentation automatique dont le but de comparer la surface des sujets sains et déments, et ce afin d’avoir une idée sur le pourcentage de diminution de la surface hippocampique chez les sujets atteints d’Alzheimer pour valider nos recherches bibliographiques.
 Dans notre projet et comme nous avons déjà cité ci-dessus que nous avons juste la segmentation des coupes coronales, nous nous sommes basés sur la surface de l’hippocampe et ce en utilisant le logiciel MITK.
@@ -135,7 +135,7 @@ Après avoir mesurer la surface de l’hippocampe segmentée de toutes les coupe
 
 5) Résultats:
 
-![img.jpg](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/tab.png)
+![tab.png.jpg](https://github.com/CHIBANIBAHI/Segmentation-de-l-hippocampe-en-IRM/blob/main/tab.png)
 
 Pendant cette étape, nous avons procéder à la classification des sujets de la base de données comme suit :
 •	Groupe homme demented : 39 sujets
